@@ -6,7 +6,7 @@
 
     header {
         overflow-x: hidden;
-        padding: 30px 30px;
+        padding: 50px 30px;
         background: #64bb61;
         position: relative;
         z-index: 1000;
@@ -140,7 +140,7 @@
     .menu {
         display: block;
         position: absolute;
-        top: 53px;
+        top: 80px;
         right: 7px;
     }
 
