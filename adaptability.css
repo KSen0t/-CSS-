@@ -131,20 +131,17 @@
         width: 100%;
     }
 
-    /* Hide header nav links on mobile */
     header nav ul li {
         display: none;
     }
 
-    /* Show menu button on mobile */
     .menu {
         display: block;
         position: absolute;
-        top: 80px;
+        top: 90px;
         right: 7px;
     }
 
-    /* Adjust sidebar for mobile */
     .sidebar {
         width: 0;
         height: 100%;
