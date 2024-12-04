@@ -251,9 +251,11 @@
     }
 
     .hero img {
-        width: 50%; /* Уменьшаем ширину изображения */
-        margin: 30px auto;
-        display: block;
+        position:relative;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
     }
 
     .hero2-info {
