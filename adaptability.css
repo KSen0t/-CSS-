@@ -225,14 +225,14 @@
 
 }
 
-@media (min-width: 1050px) and (max-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
     .container {
         width: 90%;
-        margin: 0 auto;
         padding: 0 30px;
     }
 
     header {
+        overflow-x: hidden;
         padding: 60px 40px;
         background: #64bb61;
         position: relative;
@@ -251,11 +251,10 @@
     }
 
     .hero img {
-        position:relative;
+        position: relative;
         width: 80%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .hero2-info {
@@ -291,8 +290,8 @@
 
     .footer-row {
         flex-direction: row;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
     }
 
     .footer-col {
@@ -365,7 +364,7 @@
     }
 
     .menu {
-        display: block; /* Делаем кнопку "меню" видимой */
+        display: block;
         position: absolute;
         top: 90px;
         right: 7px;
@@ -450,6 +449,59 @@
     .sidebar ul li a:hover {
         background-color: #d99644;
     }
+}
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: #000000;
+    }
+
+    .close div:first-child {
+        transform: rotate(-45deg);
+    }
+
+    .close div:last-child {
+        transform: rotate(45deg);
+    }
+
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #020202ad;
+        display: none;
+        z-index: 9998;
+    }
+
+    .overlay-open {
+        display: block;
+    }
+
+    .sidebar ul {
+        list-style: none;
+        margin-top: 60px;
+        padding: 0;
+    }
+
+    .sidebar ul li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar ul li a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .sidebar ul li a:hover {
+        background-color: #d99644;
+    }
+    
+
 }
 
 
