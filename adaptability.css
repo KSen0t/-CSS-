@@ -251,7 +251,7 @@
     }
 
     .hero img {
-        width: 80%;
+        width: 50%; /* Уменьшаем ширину изображения */
         margin: 30px auto;
         display: block;
     }
@@ -363,7 +363,10 @@
     }
 
     .menu {
-        display: none;
+        display: block; /* Делаем кнопку "меню" видимой */
+        position: absolute;
+        top: 90px;
+        right: 7px;
     }
 
     .sidebar {
@@ -446,7 +449,6 @@
         background-color: #d99644;
     }
 }
-
 
 
 
