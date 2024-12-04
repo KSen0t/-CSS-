@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 999px) {
     .container {
         width: 100%;
         padding: 0 20px;
@@ -225,7 +225,7 @@
 
 }
 
-@media (min-width: 901px) and (max-width: 1500px) {
+@media (min-width: 1000px) and (max-width: 1500px) {
     .container {
         width: 90%;
         padding: 0 30px;
